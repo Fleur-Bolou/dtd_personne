@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE bol [
+ <!ELEMENT bol (description)>
+ <!ELEMENT description (nom, date_de_naissance, formation_de_base, groupe, specialite, email, telephone, situation_matrimonial, commune, nationalite)>
+ <!ELEMENT nom (#PCDATA)>
+ <!ELEMENT date_de_naissance (#PCDATA)>
+ <!ELEMENT formation_de_base (#PCDATA)>
+ <!ELEMENT groupe (#PCDATA)>
+ <!ELEMENT specialite (#PCDATA)>
+ <!ELEMENT email (#PCDATA)>
+ <!ELEMENT telephone (#PCDATA)>
+ <!ELEMENT situation_matrimonial (#PCDATA)>
+ <!ELEMENT commune (#PCDATA)>
+ <!ELEMENT nationalite (#PCDATA)>
+]>
+<bol>
+	<description>
+		<nom>Bolou Fleur</nom>
+		<date_de_naissance>05-01-1991</date_de_naissance>
+		<formation_de_base>IDA</formation_de_base>
+		<groupe>6</groupe>
+		<specialite>coding</specialite>
+		<email>moi@gmail.com</email>
+		<telephone>04 25 22 74</telephone>
+		<situation_matrimonial>celibataire sans enfant</situation_matrimonial>
+		<commune>Marcory</commune>
+		<nationalite>Ivoirienne</nationalite>
+	</description>
+</bol>		
